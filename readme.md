@@ -1,4 +1,4 @@
-# Ugly molkky
+# Scala template with nix
 
 For the non scala dev here is the command to run a nix env, else go to Step 2 :
 
