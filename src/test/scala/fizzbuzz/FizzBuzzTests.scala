@@ -1,15 +1,9 @@
+package fizzbuzz;
+
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers
 
 class FizzBuzz extends AnyFunSuite with Matchers {
-    def fizzBuzz(i: Int) : String = 
-        (i%3 == 0, i%5 == 0) match {
-            case (true, false) => "Fizz"
-            case (false, true) => "Buzz"
-            case (true, true) => "FizzBuzz"
-            case (false, false) => i.toString
-        }
-
     test("Should fizzbuzz") {
         fizzBuzz(1) shouldEqual "1"
         fizzBuzz(2) shouldEqual "2"

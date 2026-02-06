@@ -1,10 +1,24 @@
-# Scala nix dev environment
+# Ugly molkky
 
-The aim of this repo is to get a better understanding at nix as a dev env builder.
+For the non scala dev here is the command to run a nix env, else go to Step 2 :
 
-
-Here are the few commands needed to lauch this environment :
-
+Step 1
 ```` To open nix shell
 nix-shell
+````
+
+Step 2 : If you have scala build tool (sbt) on your machine you can do
+````
+sbt
+````
+
+Then
+````
+~ test
+````
+
+or
+
+````
+run
 ````

@@ -1,8 +1,7 @@
-ThisBuild / scalaVersion := "2.13.12"
-ThisBuild / organization := "com.example"
+ThisBuild / scalaVersion := "3.3.7"
 
-lazy val hello = (project in file("."))
+lazy val template = (project in file("."))
   .settings(
-    name := "Hello",
+    name := "FizzBuzz",
     libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.18" % Test
   )
