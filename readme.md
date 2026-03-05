@@ -1,13 +1,21 @@
-# Scala template with nix
+# Scala template (with nix)
 
-For the non scala dev here is the command to run a nix env, else go to Step 2 :
-
-Step 1
+## To run on Nix
 ```` To open nix shell
 nix-shell
 ````
 
-Step 2 : If you have scala build tool (sbt) on your machine you can do
+````
+sbt
+````
+
+or
+
+````
+~ test
+````
+
+## To run locally with sbt (no Nix)
 ````
 sbt
 ````
@@ -22,3 +30,9 @@ or
 ````
 run
 ````
+
+## Up-to-date
+
+I use [renovate](https://github.com/renovatebot/renovate) bot for the dependencies to be updated.
+
+If there is a problem feel free to reach me or make a PR !
