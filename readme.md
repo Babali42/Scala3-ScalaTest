@@ -1,5 +1,4 @@
-# Scala 3 template - scalatest
-
+# Scala 3 kata starter
 ## Run with sbt
 
 Run tests once with `sbt test`
