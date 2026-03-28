@@ -1,38 +1,29 @@
-# Scala template (with nix)
+# Scala 3 template - scalatest
 
-## To run on Nix
-```` To open nix shell
-nix-shell
-````
+## Run with sbt
 
+Run tests once with `sbt test`
+
+Run tests continuously with :
 ````
 sbt
-````
-
-or
-
-````
 ~ test
 ````
 
-## To run locally with sbt (no Nix)
-````
-sbt
-````
+Run code with `sbt run`
 
-Then
-````
-~ test
-````
+## Run in Codespaces
 
-or
+This project works out of the box in GitHub Codespaces:
 
-````
-run
-````
+1. Click the **Code** button and choose **Open with Codespaces**.
+2. Once the container loads, they you can run the same commands shown above.
+
+## Run on Nix
+To open nix shell run `nix-shell`
+
+Then you can run the same commands shown above.
 
 ## Up-to-date
 
-I use [renovate](https://github.com/renovatebot/renovate) bot for the dependencies to be updated.
-
-If there is a problem feel free to reach me or make a PR !
+[renovate](https://github.com/renovatebot/renovate) bot is used for the dependencies to be updated.
