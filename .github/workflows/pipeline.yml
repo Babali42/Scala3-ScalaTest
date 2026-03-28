@@ -2,7 +2,7 @@ name: Test scala
 on:
   push:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "trunk" ]
     
 jobs:
     build-and-test:
