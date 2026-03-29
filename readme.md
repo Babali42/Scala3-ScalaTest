@@ -18,6 +18,10 @@ This project works out of the box in GitHub Codespaces:
 1. Click the **Code** button and choose **Open with Codespaces**.
 2. Once the container loads, they you can run the same commands shown above.
 
+VSCode pre-installed **extensions**
+- scala-lang.scala
+- scalameta.metals
+
 ## Run on Nix
 To open nix shell run `nix-shell`
 
