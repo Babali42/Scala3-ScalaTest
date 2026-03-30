@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "3.8.2"
+ThisBuild / scalaVersion := "3.8.3"
 
 lazy val template = (project in file("."))
   .settings(
