@@ -16,16 +16,16 @@ Run code with `sbt run`
 This project works out of the box in GitHub Codespaces:
 
 1. Click the **Code** button and choose **Open with Codespaces**.
-2. Once the container loads, they you can run the same commands shown above.
+2. Once the container is loaded you can run the commands shown above.
 
-VSCode pre-installed **extensions**
+VSCode pre-configured **extensions**
 - scala-lang.scala
 - scalameta.metals
 
 ## Run on Nix
 To open nix shell run `nix-shell`
 
-Then you can run the same commands shown above.
+Then you can run the commands shown above.
 
 ## Up-to-date
 
