@@ -1,15 +1,23 @@
 # Scala 3 kata starter
 ## Run with sbt
 
-Run tests once with `sbt test`
+Run tests once with :
+
+```
+sbt testFull
+```
 
 Run tests continuously with :
-````
-sbt
-~ test
-````
 
-Run code with `sbt run`
+```
+sbt "~test"
+```
+
+Run code with :
+
+```
+sbt run
+```
 
 ## Run in Codespaces
 
